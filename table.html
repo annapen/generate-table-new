@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body id="docbody">
+    <h1>Generate Table</h1>
+        <form id="data-form">
+            <fieldset>
+                <label for="schoolname">School name</label>
+                <input name="classroomname" type="text" id="schoolname">
+                <label for ="minimum" min="">Minimum</label>
+                <input type="number" min="0" max="20" id="minimum" name="minimum">
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+        <table id="data-table"></table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+    <script src="./main.js"></script>
+</body>
+</html>
